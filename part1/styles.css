@@ -1,0 +1,77 @@
+.mainHeader{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.students-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.student-card{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+.student-details{
+    padding:10px;
+    margin: 10px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-image{
+    width: 22vw;
+    height: 200px;
+}
+
+@media screen and (max-width:768px){
+    nav{
+        flex-direction: column;
+    }
+
+    .student-card{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .gallery-image{
+        width: 44vw;
+    }
+}
+
+@media screen and (max-width:551px){
+    
+    .gallery-image{
+        width: 88vw;
+    }
+
+}
+
+
+
+
+
