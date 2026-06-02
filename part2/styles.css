@@ -1,0 +1,55 @@
+.animated-btn{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: blue;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+    height: 60px;
+    width: 140px;
+}
+
+.animated-btn:hover{
+    transform: scale(1.1);
+    background-color: green;
+    color: yellow;
+    transition: all 0.5s;
+}
+
+.card{
+    margin: 40px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.25);
+    transition:all 0.5s;
+    background-color: green;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+    transition: ease-in-out 0.5s;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
